@@ -129,7 +129,7 @@ footer {
 /* site title
 ----------------------------------------------------------*/
 .site-title {
-    color: #fff;
+    color: #c8c8c8;
     font-family: Rockwell, Consolas, "Courier New", Courier, monospace;
     font-size: 2.3em;
     margin: 0;
@@ -213,7 +213,7 @@ ul#menu {
 }
 
     .featured .content-wrapper {
-        background-color: #000;
+        background-color: #7ac0da;
         background-image: -ms-linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
         background-image: -o-linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
         background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #7ac0da), color-stop(1, #a4d4e6));
