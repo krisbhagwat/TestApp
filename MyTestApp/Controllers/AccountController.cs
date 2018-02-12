@@ -10,6 +10,7 @@ using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
 using MyTestApp.Filters;
 using MyTestApp.Models;
+using MyTestApp.Utilities;
 
 namespace MyTestApp.Controllers
 {
@@ -74,18 +75,22 @@ namespace MyTestApp.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Register(RegisterModel model)
         {
-            if (ModelState.IsValid)
+            Register reg = new Register();
+            if (reg.RegisterUser())
             {
-                // Attempt to register the user
-                try
+                if (ModelState.IsValid)
                 {
-                    WebSecurity.CreateUserAndAccount(model.UserName, model.Password);
-                    WebSecurity.Login(model.UserName, model.Password);
-                    return RedirectToAction("Index", "Home");
-                }
-                catch (MembershipCreateUserException e)
-                {
-                    ModelState.AddModelError("", ErrorCodeToString(e.StatusCode));
+                    // Attempt to register the user
+                    try
+                    {
+                        WebSecurity.CreateUserAndAccount(model.UserName, model.Password);
+                        WebSecurity.Login(model.UserName, model.Password);
+                        return RedirectToAction("Index", "Home");
+                    }
+                    catch (MembershipCreateUserException e)
+                    {
+                        ModelState.AddModelError("", ErrorCodeToString(e.StatusCode));
+                    }
                 }
             }
 
