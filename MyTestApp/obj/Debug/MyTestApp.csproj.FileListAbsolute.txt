@@ -85,3 +85,4 @@ C:\Office\DevOps\MyTestApp\MyTestApp\obj\Debug\MyTestApp.dll
 C:\Office\DevOps\MyTestApp\MyTestApp\obj\Debug\MyTestApp.pdb
 C:\Office\DevOps\MyTestApp\MyTestApp\bin\nunit.framework.dll
 C:\Office\DevOps\MyTestApp\MyTestApp\bin\nunit.framework.xml
+C:\Office\DevOps\MyTestApp\MyTestApp\obj\Debug\MyTestApp.csprojResolveAssemblyReference.cache
