@@ -81,6 +81,7 @@ C:\Office\DevOps\MyTestApp\MyTestApp\bin\ko\System.Spatial.resources.dll
 C:\Office\DevOps\MyTestApp\MyTestApp\bin\ru\System.Spatial.resources.dll
 C:\Office\DevOps\MyTestApp\MyTestApp\bin\zh-Hans\System.Spatial.resources.dll
 C:\Office\DevOps\MyTestApp\MyTestApp\bin\zh-Hant\System.Spatial.resources.dll
-C:\Office\DevOps\MyTestApp\MyTestApp\obj\Debug\MyTestApp.csprojResolveAssemblyReference.cache
 C:\Office\DevOps\MyTestApp\MyTestApp\obj\Debug\MyTestApp.dll
 C:\Office\DevOps\MyTestApp\MyTestApp\obj\Debug\MyTestApp.pdb
+C:\Office\DevOps\MyTestApp\MyTestApp\bin\nunit.framework.dll
+C:\Office\DevOps\MyTestApp\MyTestApp\bin\nunit.framework.xml

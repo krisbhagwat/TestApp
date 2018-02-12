@@ -30,3 +30,13 @@ C:\Office\DevOps\MyTestApp\TestProj\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
 C:\Office\DevOps\MyTestApp\TestProj\bin\Debug\DotNetOpenAuth.OAuth.xml
 C:\Office\DevOps\MyTestApp\TestProj\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
 C:\Office\DevOps\MyTestApp\TestProj\bin\Debug\DotNetOpenAuth.OpenId.xml
+C:\Office\DevOps\MyTestApp\TestProj\bin\Debug\TestProj.dll.config
+C:\Office\DevOps\MyTestApp\TestProj\bin\Debug\NUnit3.TestAdapter.dll
+C:\Office\DevOps\MyTestApp\TestProj\bin\Debug\nunit.engine.dll
+C:\Office\DevOps\MyTestApp\TestProj\bin\Debug\nunit.engine.api.dll
+C:\Office\DevOps\MyTestApp\TestProj\bin\Debug\Mono.Cecil.dll
+C:\Office\DevOps\MyTestApp\TestProj\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Office\DevOps\MyTestApp\TestProj\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Office\DevOps\MyTestApp\TestProj\bin\Debug\Mono.Cecil.Rocks.dll
+C:\Office\DevOps\MyTestApp\TestProj\bin\Debug\nunit.framework.dll
+C:\Office\DevOps\MyTestApp\TestProj\bin\Debug\nunit.framework.xml
