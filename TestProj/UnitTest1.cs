@@ -14,5 +14,12 @@ namespace TestProj
             bool bResult = reg.RegisterUser();
             Assert.IsTrue(bResult);
         }
+
+        [Test]
+        public void TestMethod2()
+        {
+            bool bResult = false;
+            Assert.IsTrue(bResult);
+        }
     }
 }
