@@ -85,3 +85,4 @@ C:\Office\DevOps\MyTestApp\MyTestApp\bin\zh-Hans\System.Spatial.resources.dll
 C:\Office\DevOps\MyTestApp\MyTestApp\bin\zh-Hant\System.Spatial.resources.dll
 C:\Office\DevOps\MyTestApp\MyTestApp\obj\Release\MyTestApp.dll
 C:\Office\DevOps\MyTestApp\MyTestApp\obj\Release\MyTestApp.pdb
+C:\Office\DevOps\MyTestApp\MyTestApp\obj\Release\MyTestApp.csprojResolveAssemblyReference.cache
