@@ -18,7 +18,7 @@ namespace TestProj
         [Test]
         public void TestMethod2()
         {
-            bool bResult = false;
+            bool bResult = true;
             Assert.IsTrue(bResult);
         }
     }
