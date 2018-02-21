@@ -12,6 +12,16 @@ pipeline {
                 echo 'Testing..'
             }
         }
+        stage('Integration Test') {
+            steps {
+                echo 'Accpetance Testing..'
+            }
+        }
+        stage('Accpetance Test') {
+            steps {
+                echo 'Accpetance Testing..'
+            }
+        }
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
