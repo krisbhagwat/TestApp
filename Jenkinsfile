@@ -7,7 +7,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                bat 'nuget restore MyTestApp.sln'
+                bat 'dotnet build MyTestApp.sln'
 		bat "\"${tool 'MSBuild'}\" MyTestApp.sln /p:Configuration=Release /p:Platform=\"Any CPU\" /p:ProductVersion=1.0.0.${env.BUILD_NUMBER}"
                 echo 'Build complete..'
             }
