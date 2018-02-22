@@ -31,6 +31,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
+		 bat 'xcopy C:\\Users\\bhagwatk\\.jenkins\\workspace\\DemoBuild\\MyTestApp C:\\Apps\\TestApp /s /e /y'
             }
         }
     }
