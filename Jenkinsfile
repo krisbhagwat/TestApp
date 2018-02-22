@@ -8,7 +8,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 bat 'C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\MSBuild.exe MyTestApp.sln'
-		bat "\"${tool 'MSBuild'}\" MyTestApp.sln /p:Configuration=Release /p:Platform=\"Any CPU\" /p:ProductVersion=1.0.0.${env.BUILD_NUMBER}"
+		bat "\"${tool 'C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\MSBuild.exe'}\" MyTestApp.sln /p:Configuration=Release /p:Platform=\"Any CPU\" /p:ProductVersion=1.0.0.${env.BUILD_NUMBER}"
                 echo 'Build complete..'
             }
         }
