@@ -14,7 +14,7 @@ pipeline {
         stage('Unit Test') {
             steps {
                 echo 'Unit Testing..'
-                bat 'C:\\Office\\Materials\\Jenkins\\NUnit.Console-3.8.0\\nunit3-console.exe C:\\Users\\bhagwatk\\.jenkins\\workspace\\PipeLineBuild\\TestProj\\bin\\Release\\TestProj.dll
+                bat 'C:\\Office\\Materials\\Jenkins\\NUnit.Console-3.8.0\\nunit3-console.exe C:\\Users\\bhagwatk\\.jenkins\\workspace\\PipeLineBuild\\TestProj\\bin\\Release\\TestProj.dll'
                 echo 'Unit Testing comeplete..'
             }
         }
