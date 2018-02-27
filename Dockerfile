@@ -2,7 +2,7 @@
 FROM microsoft/aspnet
 
 # set maintainer
-LABEL TestApp 
+LABEL TestApp "krisbhagwat@gmail.com"
 
 # set a health check
 HEALTHCHECK --interval=5s \
