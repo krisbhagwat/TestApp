@@ -32,6 +32,7 @@ pipeline {
         stage('Arhive Build') {
             steps {
                 echo "archiving build ${env.BUILD_NUMBER}"
+		    bat "mkdir C:\\Office\\Jenkins\\Builds\\Build_${env.BUILD_NUMBER}"
 		    // bat "xcopy C:\\Users\\bhagwatk\\.jenkins\\workspace\\DemoBuild\\MyTestApp C:\\Office\\Jenkins\\Builds\\Build_${env.BUILD_NUMBER} /s /e /y"
             }
         }
