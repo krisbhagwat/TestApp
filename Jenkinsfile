@@ -31,8 +31,8 @@ pipeline {
 	
         stage('Arhive Build') {
             steps {
-                echo 'Arhiving the current build..${env.BUILD_NUMBER}'
-		     bat 'xcopy C:\\Users\\bhagwatk\\.jenkins\\workspace\\DemoBuild\\MyTestApp C:\\Office\\Jenkins\\Builds\\Build_${env.BUILD_NUMBER} /s /e /y'
+                echo 'Arhiving the current build..${BUILD_NUMBER}'
+		     bat 'xcopy C:\\Users\\bhagwatk\\.jenkins\\workspace\\DemoBuild\\MyTestApp C:\\Office\\Jenkins\\Builds\\Build_${BUILD_NUMBER} /s /e /y'
             }
         }
         stage('Deploy') {
