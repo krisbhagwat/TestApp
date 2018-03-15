@@ -11,6 +11,8 @@ pipeline {
 		echo 'Build complete..'
             }
         }
+    	stage('Execute Tests')
+	    {
         stage('Unit Test') {
             steps {
                 echo 'Unit Testing..'
@@ -28,6 +30,7 @@ pipeline {
                 echo 'Accpetance Testing..'
             }
         }
+	    }
 	
         stage('Arhive Build') {
             steps {
